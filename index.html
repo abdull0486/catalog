@@ -3,90 +3,265 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Catalog | Katalog</title>
+    <title>Skin Catalog</title>
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    <header class="topbar">
-      <div class="container nav">
-        <div class="brand">
-          <span class="brand-mark">C</span>
-          Catalog
-        </div>
-        <nav class="nav-links">
-          <a href="#">Asosiy</a>
-          <a href="#">Katalog</a>
-          <a href="#">Aloqa</a>
-        </nav>
-      </div>
-    </header>
-
-    <main>
-      <section class="hero">
-        <div class="container hero-inner">
-          <div class="hero-copy">
-            <p class="eyebrow">Bizning katalog</p>
-            <h1>Yaxshi tanlov toping</h1>
-            <p class="hero-text">
-              Mahsulotlar, xizmatlar va xizmat ko’rsatish yo’nalishlari bo’yicha tezkor katalog.
-            </p>
-            <div class="hero-actions">
-              <a href="#catalog" class="btn btn-primary">Katalogni ko’rish</a>
-              <a href="#" class="btn btn-secondary">Batafsil</a>
+    <div class="scene">
+      <div class="phone phone-home">
+        <div class="screen">
+          <div class="status-bar">
+            <span>9:41</span>
+            <div class="status-icons">
+              <span class="dot"></span>
+              <span class="dot"></span>
+              <span class="dot"></span>
             </div>
           </div>
+
+          <div class="search-line">
+            <span class="search-label">Search skincare...</span>
+            <span class="search-icon">⌕</span>
+          </div>
+
           <div class="hero-card">
-            <div class="mini-stat">
-              <span>1200+</span>
-              <small>Mahsulot</small>
+            <div class="hero-copy">
+              <h1>Glow<br />Healthier<br />Everyday</h1>
             </div>
-            <div class="mini-stat">
-              <span>4.8/5</span>
-              <small>Mijoz bahosi</small>
-            </div>
-            <div class="mini-stat">
-              <span>24/7</span>
-              <small>Yordam</small>
+            <div class="bottle-wrap">
+              <div class="bottle bottle-lg">
+                <div class="cap"></div>
+                <div class="bottle-body"></div>
+              </div>
             </div>
           </div>
+
+          <div class="chip-row">
+            <button class="chip active">Cleanser</button>
+            <button class="chip">Serum</button>
+            <button class="chip">Moisturizer</button>
+            <button class="chip">Sunscreen</button>
+          </div>
+
+          <div class="section-title-row">
+            <h3>Best for You</h3>
+            <a href="#">See All</a>
+          </div>
+
+          <div class="mini-grid">
+            <article class="mini-item">
+              <div class="mini-visual mini-one"></div>
+              <div class="mini-info">
+                <h4>Calming<br />Gel Moisturizer</h4>
+                <div class="mini-meta">
+                  <strong>$28.00</strong>
+                  <button>+</button>
+                </div>
+              </div>
+            </article>
+
+            <article class="mini-item">
+              <div class="mini-visual mini-two"></div>
+              <div class="mini-info">
+                <h4>Vitamin C<br />Brightening Serum</h4>
+                <div class="mini-meta">
+                  <strong>$36.00</strong>
+                  <button>+</button>
+                </div>
+              </div>
+            </article>
+          </div>
+
+          <nav class="bottom-nav">
+            <span class="nav-item active">⌂</span>
+            <span class="nav-item">◫</span>
+            <span class="nav-item">♡</span>
+            <span class="nav-item">◔</span>
+          </nav>
         </div>
-      </section>
-
-      <section id="catalog" class="catalog">
-        <div class="container">
-          <div class="section-head">
-            <div>
-              <p class="eyebrow">Katalog</p>
-              <h2>Mahsulotlar va xizmatlar</h2>
-            </div>
-          </div>
-
-          <div class="toolbar">
-            <label class="search-box" aria-label="Qidiruv">
-              <svg viewBox="0 0 24 24" aria-hidden="true">
-                <path d="M10 2a8 8 0 105.3 13.7l4.4 4.4 1.4-1.4-4.4-4.4A8 8 0 0010 2zm0 2a6 6 0 110 12 6 6 0 010-12z"/>
-              </svg>
-              <input id="searchInput" type="text" placeholder="Qidiruv..." />
-            </label>
-
-            <div id="categoryFilter" class="categories" aria-label="Kategoriya filtr"></div>
-          </div>
-
-          <div id="catalogGrid" class="catalog-grid" aria-live="polite"></div>
-        </div>
-      </section>
-    </main>
-
-    <footer class="footer">
-      <div class="container footer-inner">
-        <p>© 2026 Catalog</p>
-        <a href="#">Privacy</a>
       </div>
-    </footer>
+
+      <div class="phone phone-shop">
+        <div class="screen">
+          <div class="status-bar">
+            <span>9:41</span>
+            <div class="status-icons">
+              <span class="dot"></span>
+              <span class="dot"></span>
+              <span class="dot"></span>
+            </div>
+          </div>
+
+          <div class="shop-head">
+            <h2>Shop</h2>
+            <div class="header-actions">
+              <span>⌕</span>
+              <span>⚙</span>
+            </div>
+          </div>
+
+          <div class="chip-row is-shop">
+            <button class="chip active">All</button>
+            <button class="chip">Cleanser</button>
+            <button class="chip">Serum</button>
+            <button class="chip">Moisturizer</button>
+            <button class="chip">Sunscreen</button>
+          </div>
+
+          <div class="shop-grid" id="shopGrid"></div>
+
+          <nav class="bottom-nav compact">
+            <span class="nav-item">⌂</span>
+            <span class="nav-item active">◫</span>
+            <span class="nav-item">♡</span>
+            <span class="nav-item">◔</span>
+          </nav>
+        </div>
+      </div>
+
+      <div class="phone phone-detail">
+        <div class="screen detail-screen">
+          <div class="status-bar">
+            <span>9:41</span>
+            <div class="status-icons">
+              <span class="dot"></span>
+              <span class="dot"></span>
+              <span class="dot"></span>
+            </div>
+          </div>
+
+          <div class="detail-topbar">
+            <button class="arrow-btn">‹</button>
+            <button class="fav-btn">♡</button>
+          </div>
+
+          <div class="detail-visual-wrap">
+            <div class="detail-bottle bottle-detail">
+              <div class="cap"></div>
+              <div class="bottle-body"></div>
+            </div>
+          </div>
+
+          <div class="detail-card">
+            <div class="detail-name-row">
+              <div>
+                <h3>Cica Recovery Cream</h3>
+                <p class="price">$28.00</p>
+              </div>
+              <div class="rating-block">
+                <span>★</span>
+                <span>4.8</span>
+                <small>(3,200 reviews)</small>
+              </div>
+            </div>
+
+            <div class="qty-row">
+              <button class="qty-btn">−</button>
+              <span>1</span>
+              <button class="qty-btn">+</button>
+            </div>
+
+            <button class="add-btn">Add to Cart</button>
+
+            <div class="tabs">
+              <button class="tab active">Details</button>
+              <button class="tab">Ingredients</button>
+              <button class="tab">Reviews</button>
+            </div>
+
+            <div class="feature-list">
+              <div class="feature-item">
+                <span class="feature-icon">✦</span>
+                <span>Soothes</span>
+              </div>
+              <div class="feature-item">
+                <span class="feature-icon">◌</span>
+                <span>Deeply Hydrates</span>
+              </div>
+              <div class="feature-item">
+                <span class="feature-icon">✓</span>
+                <span>Strengthens Skin Barrier</span>
+              </div>
+              <div class="feature-item">
+                <span class="feature-icon">✧</span>
+                <span>Skin Repair</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
 
     <script src="script.js"></script>
   </body>
 </html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

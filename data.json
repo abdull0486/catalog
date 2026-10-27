@@ -1,261 +1,46 @@
 {
   "items": [
     {
-      "name": "Laptop Pro 14",
-      "category": "Elektronika",
-      "price": "$899",
+      "name": "Hydrating Facial Cleanser",
+      "category": "Cleanser",
+      "price": "$24.00",
       "rating": 4.8,
-      "emoji": "💻",
-      "description": "Kuchli va yengil ishlash uchun mo'ljallangan professional laptop."
+      "description": "A gentle daily cleanser that keeps skin fresh and hydrated."
     },
     {
-      "name": "Smart Watch X",
-      "category": "Elektronika",
-      "price": "$249",
+      "name": "Niacinamide Serum",
+      "category": "Serum",
+      "price": "$32.00",
       "rating": 4.7,
-      "emoji": "⌚",
-      "description": "Sog'liqni nazorat qilish, fitness va xabarnomalarga qulay moslama."
+      "description": "Helps refine texture and balance skin tone daily."
     },
     {
-      "name": "Premium Stul",
-      "category": "Uy jihozlari",
-      "price": "$120",
+      "name": "Daily Repair Moisturizer",
+      "category": "Moisturizer",
+      "price": "$28.00",
       "rating": 4.9,
-      "emoji": "🪑",
-      "description": "Kundalik foydalanish uchun qulay va zamonaviy dizayndagi stul."
+      "description": "Deep hydration with a soft, non-greasy finish."
     },
     {
-      "name": "Suv Filtr",
-      "category": "Uy jihozlari",
-      "price": "$89",
-      "rating": 4.6,
-      "emoji": "💧",
-      "description": "Toza va shifobaxsh suvga ega bo'lish uchun samarali filtr tizimi."
-    },
-    {
-      "name": "Ayollar sumkasi",
-      "category": "Moda",
-      "price": "$65",
-      "rating": 4.5,
-      "emoji": "👜",
-      "description": "Klassik uslub va qulay bo'yoq beruvchi zamonaviy sumka."
-    },
-    {
-      "name": "Sport poyafzali",
-      "category": "Sport",
-      "price": "$110",
+      "name": "SPF 50 Sunscreen Fluid",
+      "category": "Sunscreen",
+      "price": "$26.00",
       "rating": 4.8,
-      "emoji": "👟",
-      "description": "Yengil va qulay sport poyafzali kundalik faoliyat uchun."
+      "description": "Lightweight protection against UV and daily stress."
     },
     {
-      "name": "Yozuvchi qalamlar to'plami",
-      "category": "Ofis",
-      "price": "$19",
-      "rating": 4.4,
-      "emoji": "✒️",
-      "description": "Yozish va chizish uchun zamonaviy va estetika qalamlar to'plami."
+      "name": "Cica Recovery Cream",
+      "category": "Moisturizer",
+      "price": "$28.00",
+      "rating": 4.8,
+      "description": "A comforting cream for sensitive and stressed skin."
     },
     {
-      "name": "Aqlli lampochka",
-      "category": "Uy jihozlari",
-      "price": "$35",
+      "name": "Vitamin C Essence",
+      "category": "Serum",
+      "price": "$36.00",
       "rating": 4.7,
-      "emoji": "💡",
-      "description": "Energiya tejovchi va boshqariladigan lampochka uy uchun ideal."
+      "description": "Brightens and evens out the complexion beautifully."
     }
   ]
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
