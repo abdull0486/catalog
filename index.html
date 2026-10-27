@@ -11,7 +11,7 @@
   </head>
   <body>
     <div class="scene">
-      <div class="phone phone-home">
+      <div class="phone">
         <div class="screen">
           <div class="status-bar">
             <span>9:41</span>
@@ -22,175 +22,136 @@
             </div>
           </div>
 
-          <div class="search-line">
-            <span class="search-label">Search skincare...</span>
-            <span class="search-icon">⌕</span>
-          </div>
-
-          <div class="hero-card">
-            <div class="hero-copy">
-              <h1>Glow<br />Healthier<br />Everyday</h1>
+          <section class="view active" data-view="home">
+            <div class="search-line">
+              <span class="search-label">Search skincare...</span>
+              <span class="search-icon">⌕</span>
             </div>
-            <div class="bottle-wrap">
-              <div class="bottle bottle-lg">
+
+            <div class="hero-card">
+              <div class="hero-copy">
+                <h1>Glow<br />Healthier<br />Everyday</h1>
+              </div>
+              <div class="bottle-wrap">
+                <div class="bottle bottle-lg">
+                  <div class="cap"></div>
+                  <div class="bottle-body"></div>
+                </div>
+              </div>
+            </div>
+
+            <div class="chip-row">
+              <button class="chip active">Cleanser</button>
+              <button class="chip">Serum</button>
+              <button class="chip">Moisturizer</button>
+              <button class="chip">Sunscreen</button>
+            </div>
+
+            <div class="section-title-row">
+              <h3>Best for You</h3>
+              <button class="text-btn" data-target="shop">See All</button>
+            </div>
+
+            <div class="mini-grid">
+              <article class="mini-item">
+                <div class="mini-visual mini-one"></div>
+                <div class="mini-info">
+                  <h4>Calming<br />Gel Moisturizer</h4>
+                  <div class="mini-meta">
+                    <strong>$28.00</strong>
+                    <button class="plus-btn">+</button>
+                  </div>
+                </div>
+              </article>
+
+              <article class="mini-item">
+                <div class="mini-visual mini-two"></div>
+                <div class="mini-info">
+                  <h4>Vitamin C<br />Brightening Serum</h4>
+                  <div class="mini-meta">
+                    <strong>$36.00</strong>
+                    <button class="plus-btn">+</button>
+                  </div>
+                </div>
+              </article>
+            </div>
+          </section>
+
+          <section class="view" data-view="shop">
+            <div class="shop-head">
+              <h2>Shop</h2>
+              <div class="header-actions">
+                <span>⌕</span>
+                <span>⚙</span>
+              </div>
+            </div>
+
+            <div class="chip-row is-shop">
+              <button class="chip active">All</button>
+              <button class="chip">Cleanser</button>
+              <button class="chip">Serum</button>
+              <button class="chip">Moisturizer</button>
+              <button class="chip">Sunscreen</button>
+            </div>
+
+            <div class="shop-grid" id="shopGrid"></div>
+          </section>
+
+          <section class="view" data-view="detail">
+            <div class="detail-topbar">
+              <button class="arrow-btn" data-target="shop">‹</button>
+              <button class="fav-btn">♡</button>
+            </div>
+
+            <div class="detail-visual-wrap">
+              <div class="detail-bottle bottle-detail">
                 <div class="cap"></div>
                 <div class="bottle-body"></div>
               </div>
             </div>
-          </div>
 
-          <div class="chip-row">
-            <button class="chip active">Cleanser</button>
-            <button class="chip">Serum</button>
-            <button class="chip">Moisturizer</button>
-            <button class="chip">Sunscreen</button>
-          </div>
-
-          <div class="section-title-row">
-            <h3>Best for You</h3>
-            <a href="#">See All</a>
-          </div>
-
-          <div class="mini-grid">
-            <article class="mini-item">
-              <div class="mini-visual mini-one"></div>
-              <div class="mini-info">
-                <h4>Calming<br />Gel Moisturizer</h4>
-                <div class="mini-meta">
-                  <strong>$28.00</strong>
-                  <button>+</button>
+            <div class="detail-card">
+              <div class="detail-name-row">
+                <div>
+                  <h3 id="detailName">Cica Recovery Cream</h3>
+                  <p class="price" id="detailPrice">$28.00</p>
+                </div>
+                <div class="rating-block">
+                  <span>★</span>
+                  <span>4.8</span>
+                  <small>(3,200 reviews)</small>
                 </div>
               </div>
-            </article>
 
-            <article class="mini-item">
-              <div class="mini-visual mini-two"></div>
-              <div class="mini-info">
-                <h4>Vitamin C<br />Brightening Serum</h4>
-                <div class="mini-meta">
-                  <strong>$36.00</strong>
-                  <button>+</button>
-                </div>
+              <div class="qty-row">
+                <button class="qty-btn" type="button">−</button>
+                <span>1</span>
+                <button class="qty-btn" type="button">+</button>
               </div>
-            </article>
-          </div>
 
-          <nav class="bottom-nav">
-            <span class="nav-item active">⌂</span>
-            <span class="nav-item">◫</span>
-            <span class="nav-item">♡</span>
-            <span class="nav-item">◔</span>
+              <button class="add-btn">Add to Cart</button>
+
+              <div class="tabs">
+                <button class="tab active" type="button">Details</button>
+                <button class="tab" type="button">Ingredients</button>
+                <button class="tab" type="button">Reviews</button>
+              </div>
+
+              <div class="feature-list">
+                <div class="feature-item"><span class="feature-icon">✦</span><span>Soothes</span></div>
+                <div class="feature-item"><span class="feature-icon">◌</span><span>Deeply Hydrates</span></div>
+                <div class="feature-item"><span class="feature-icon">✓</span><span>Strengthens Skin Barrier</span></div>
+                <div class="feature-item"><span class="feature-icon">✧</span><span>Skin Repair</span></div>
+              </div>
+            </div>
+          </section>
+
+          <nav class="bottom-nav" aria-label="Main navigation">
+            <button class="nav-item active" data-target="home" type="button">⌂</button>
+            <button class="nav-item" data-target="shop" type="button">◫</button>
+            <button class="nav-item" data-target="detail" type="button">♡</button>
+            <button class="nav-item" type="button">◔</button>
           </nav>
-        </div>
-      </div>
-
-      <div class="phone phone-shop">
-        <div class="screen">
-          <div class="status-bar">
-            <span>9:41</span>
-            <div class="status-icons">
-              <span class="dot"></span>
-              <span class="dot"></span>
-              <span class="dot"></span>
-            </div>
-          </div>
-
-          <div class="shop-head">
-            <h2>Shop</h2>
-            <div class="header-actions">
-              <span>⌕</span>
-              <span>⚙</span>
-            </div>
-          </div>
-
-          <div class="chip-row is-shop">
-            <button class="chip active">All</button>
-            <button class="chip">Cleanser</button>
-            <button class="chip">Serum</button>
-            <button class="chip">Moisturizer</button>
-            <button class="chip">Sunscreen</button>
-          </div>
-
-          <div class="shop-grid" id="shopGrid"></div>
-
-          <nav class="bottom-nav compact">
-            <span class="nav-item">⌂</span>
-            <span class="nav-item active">◫</span>
-            <span class="nav-item">♡</span>
-            <span class="nav-item">◔</span>
-          </nav>
-        </div>
-      </div>
-
-      <div class="phone phone-detail">
-        <div class="screen detail-screen">
-          <div class="status-bar">
-            <span>9:41</span>
-            <div class="status-icons">
-              <span class="dot"></span>
-              <span class="dot"></span>
-              <span class="dot"></span>
-            </div>
-          </div>
-
-          <div class="detail-topbar">
-            <button class="arrow-btn">‹</button>
-            <button class="fav-btn">♡</button>
-          </div>
-
-          <div class="detail-visual-wrap">
-            <div class="detail-bottle bottle-detail">
-              <div class="cap"></div>
-              <div class="bottle-body"></div>
-            </div>
-          </div>
-
-          <div class="detail-card">
-            <div class="detail-name-row">
-              <div>
-                <h3>Cica Recovery Cream</h3>
-                <p class="price">$28.00</p>
-              </div>
-              <div class="rating-block">
-                <span>★</span>
-                <span>4.8</span>
-                <small>(3,200 reviews)</small>
-              </div>
-            </div>
-
-            <div class="qty-row">
-              <button class="qty-btn">−</button>
-              <span>1</span>
-              <button class="qty-btn">+</button>
-            </div>
-
-            <button class="add-btn">Add to Cart</button>
-
-            <div class="tabs">
-              <button class="tab active">Details</button>
-              <button class="tab">Ingredients</button>
-              <button class="tab">Reviews</button>
-            </div>
-
-            <div class="feature-list">
-              <div class="feature-item">
-                <span class="feature-icon">✦</span>
-                <span>Soothes</span>
-              </div>
-              <div class="feature-item">
-                <span class="feature-icon">◌</span>
-                <span>Deeply Hydrates</span>
-              </div>
-              <div class="feature-item">
-                <span class="feature-icon">✓</span>
-                <span>Strengthens Skin Barrier</span>
-              </div>
-              <div class="feature-item">
-                <span class="feature-icon">✧</span>
-                <span>Skin Repair</span>
-              </div>
-            </div>
-          </div>
         </div>
       </div>
     </div>
@@ -198,70 +159,3 @@
     <script src="script.js"></script>
   </body>
 </html>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
