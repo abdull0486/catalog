@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="uz">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Catalog | Katalog</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header class="topbar">
+      <div class="container nav">
+        <div class="brand">
+          <span class="brand-mark">C</span>
+          Catalog
+        </div>
+        <nav class="nav-links">
+          <a href="#">Asosiy</a>
+          <a href="#">Katalog</a>
+          <a href="#">Aloqa</a>
+        </nav>
+      </div>
+    </header>
+
+    <main>
+      <section class="hero">
+        <div class="container hero-inner">
+          <div class="hero-copy">
+            <p class="eyebrow">Bizning katalog</p>
+            <h1>Yaxshi tanlov toping</h1>
+            <p class="hero-text">
+              Mahsulotlar, xizmatlar va xizmat ko’rsatish yo’nalishlari bo’yicha tezkor katalog.
+            </p>
+            <div class="hero-actions">
+              <a href="#catalog" class="btn btn-primary">Katalogni ko’rish</a>
+              <a href="#" class="btn btn-secondary">Batafsil</a>
+            </div>
+          </div>
+          <div class="hero-card">
+            <div class="mini-stat">
+              <span>1200+</span>
+              <small>Mahsulot</small>
+            </div>
+            <div class="mini-stat">
+              <span>4.8/5</span>
+              <small>Mijoz bahosi</small>
+            </div>
+            <div class="mini-stat">
+              <span>24/7</span>
+              <small>Yordam</small>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="catalog" class="catalog">
+        <div class="container">
+          <div class="section-head">
+            <div>
+              <p class="eyebrow">Katalog</p>
+              <h2>Mahsulotlar va xizmatlar</h2>
+            </div>
+          </div>
+
+          <div class="toolbar">
+            <label class="search-box" aria-label="Qidiruv">
+              <svg viewBox="0 0 24 24" aria-hidden="true">
+                <path d="M10 2a8 8 0 105.3 13.7l4.4 4.4 1.4-1.4-4.4-4.4A8 8 0 0010 2zm0 2a6 6 0 110 12 6 6 0 010-12z"/>
+              </svg>
+              <input id="searchInput" type="text" placeholder="Qidiruv..." />
+            </label>
+
+            <div id="categoryFilter" class="categories" aria-label="Kategoriya filtr"></div>
+          </div>
+
+          <div id="catalogGrid" class="catalog-grid" aria-live="polite"></div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <div class="container footer-inner">
+        <p>© 2026 Catalog</p>
+        <a href="#">Privacy</a>
+      </div>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
